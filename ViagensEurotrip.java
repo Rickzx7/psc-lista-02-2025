@@ -16,8 +16,8 @@ public class ViagensEurotrip {
 
         double valorTotalViagem = ValorAlemanha + ValorPortugal + ValorItália;
 
-        System.out.printf("\nO valor total da viagem é R$%.2f", valorTotalViagem);
-        System.out.printf("\nA quantidade de pessoas que irão nesta viagem é: %d", pessoas);
+        System.out.printf("\n %d pessoas pagarão por pessoa um total de R$%.2f nas passagens para as viagens.", pessoas,
+                valorTotalViagem);
         scanner.close();
     }
 }
